@@ -1,0 +1,48 @@
+Vendor-Management-System
+==========
+
+Vendor-Management-System API is a RESTful API for managing vendors and purchase orders.
+
+Features
+Create, read, update, and delete vendors
+Create, read, update, and delete purchase orders
+Retrieve vendor performance metrics
+Filter purchase orders by vendor
+Getting Started
+To get started with Vendor-Management-System API, follow these steps:
+
+Installation
+------------
+
+**Requirements:**
+- Python 3.9.11
+
+**Steps:**
+Clone the repository:
+
+```
+git clone https://github.com/Nikunj6265/Vendor-Management-System.git
+```
+Install dependencies:
+
+```
+cd Vendor-Management-System
+pip install -r requirements.txt
+```
+Run migrations:
+
+```
+python manage.py makemigrations
+python manage.py migrate
+```
+Create a superuser:
+```
+python manage.py createsuperuser
+```
+Start the development server:
+```
+python manage.py runserver
+```
+Access the API at http://127.0.0.1:8000/api/
+
+Follow the Document to understand each API endpoint thoroughly.
