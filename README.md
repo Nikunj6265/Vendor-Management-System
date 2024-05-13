@@ -45,4 +45,9 @@ python manage.py runserver
 ```
 Access the API at http://127.0.0.1:8000/api/
 
-Follow the Document to understand each API endpoint thoroughly.
+Follow the Document and Postman Dump to understand each API endpoint thoroughly.
+
+Document Link: https://drive.google.com/file/d/1lSpEphGS7m5Bxc73fvGidYzlpVovPCNd/view?usp=sharing
+
+Postman Dump Link: https://drive.google.com/file/d/13MMefy9BCYIBkHekQK60UY3vgSa03cbh/view?usp=sharing
+
